@@ -1,0 +1,125 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    background-color: #ebc7aa;
+}
+.bg-color{
+ background-color:#fac1c4;
+}
+.list-group{
+    --bs-list-group-bg:transparent;
+}
+.modal-content{
+    background-color:#df60753f ;
+}
+.btn-secondary{
+    --bs-btn-bg: #000000;
+    --bs-btn-border-color: #ffffff;
+    --bs-btn-hover-bg: #6f7fb6;
+    --bs-btn-active-bg: #6f7fb6;
+    --bs-btn-active-border-color: #ffffff;
+}
+.fa-brands.fa-twitter.fa-xl.text-white:hover{
+    --bs-text-opacity: 1;
+color: #1d9bf0 !important;
+}
+.fa-brands.fa-github.fa-xl.text-white:hover{
+    --bs-text-opacity: 1;
+color: #000000 !important;
+}
+.fa-solid.fa-user-lock.fa-xl.text-white:hover{
+    --bs-text-opacity: 1;
+color: #6f7fb6 !important;
+}
+
+.perfil{
+    width: 200px;
+    height: 200px;
+}
+.imagen-trabajo{
+    border-radius: 6px;
+    overflow: hidden;
+    background: #e9ebef;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0,2);
+    cursor: default;
+    transition: all 400ms ease;
+} 
+.imagen-trabajo:hover{
+     box-shadow: 5px 5px 20px #985567;
+     transform:translateY(-3%) ;
+} 
+.bg-danger {
+    --bs-bg-opacity: 1;
+    background-color: #985567 !important;
+}
+.bg-info {
+    --bs-bg-opacity: 1;
+    background-color: #32448a !important;
+}
+
+.card{
+    width: 18rem;
+    margin-left:420px;
+    padding: auto;
+}
+element.style {
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+.card{
+    border-radius: 6px;
+    overflow: hidden;
+    background: #e9ebef;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0,2);
+    cursor: default;
+    transition: all 400ms ease;
+} 
+.card:hover{
+     box-shadow: 5px 5px 20px #985567;
+     transform:translateY(-5%) ;
+}  
+.card-title{
+    padding: 10px;
+    text-align: center;
+}
+.card-text{
+    padding: 10px;
+    text-align: center;
+}
+.btn-primary{
+    margin-left: 15px;
+}
+.btn-primary{
+    --bs-btn-bg: #000000;
+    --bs-btn-border-color: #ffffff;
+    --bs-btn-hover-bg: #6f7fb6;
+    --bs-btn-active-bg: #6f7fb6;
+    --bs-btn-active-border-color: #ffffff;
+}
+.login{
+    height: 75vh;
+}
+.formulario-login{
+    margin-top: 10%;
+}
+nav.vertical{
+    float: left;
+    margin-left: 0.5rem;
+}
+li.vertical{
+    display: block;
+    margin: 0;
+    writing-mode: vertical;
+}
+a.a:hover{
+    text-decoration: none;
+}
+a{
+    color: #000000;
+}
+
